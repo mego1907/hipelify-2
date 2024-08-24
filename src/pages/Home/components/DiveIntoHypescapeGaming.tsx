@@ -22,9 +22,14 @@ const DiveIntoHypescapeGaming = () => {
 
 // Games
 const Games = () => {
-  const [selectedTab, setSelectedTab] = useState<string>("paid-games");
+  const [selectedTab, setSelectedTab] = useState<
+    "paid-games" | "free-games" | "multi-player"
+  >("paid-games");
 
-  const tabs = [
+  const tabs: {
+    label: string;
+    value: "paid-games" | "free-games" | "multi-player";
+  }[] = [
     { label: "Paid Games", value: "paid-games" },
     { label: "Free Games", value: "free-games" },
     { label: "Multi-Player Games", value: "multi-player" },

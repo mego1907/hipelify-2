@@ -49,7 +49,7 @@ const LatestJobs = () => {
       </div>
 
       <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
-        {jobs.map((job, index) => (
+        {jobs.map((_, index) => (
           <JobCard key={index} />
         ))}
       </div>

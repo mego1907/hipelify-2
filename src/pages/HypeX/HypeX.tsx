@@ -1,11 +1,7 @@
-import { CustomButton, ImageAndDescSection } from "../../components";
 import MeetTheAdvisors from "../../components/MeetTheAdvisors";
-import TeamMembers from "../../components/TeamMembers";
 import Header from "./components/Header";
 import HypeStudio from "./components/HypeStudio";
 import RoadMap from "./components/Roadmap";
-import TokenomicsAllocations from "./components/TokenomicsAllocations";
-import TokenomicsFundraising from "./components/TokenomicsFundraising";
 
 const HypeX = () => {
   return (

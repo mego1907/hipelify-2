@@ -1,5 +1,5 @@
 import TeamMembers from "../../components/TeamMembers";
-import { CustomButton, ImageAndDescSection, PageTitle } from "../../components";
+import { PageTitle } from "../../components";
 
 const Team = () => {
   return (
