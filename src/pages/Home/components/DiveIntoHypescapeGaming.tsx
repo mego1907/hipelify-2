@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { CustomButton } from "../../../components";
 import { GamingDataTypes, SingleGameTypes } from "../../../types";
 import { FaStar } from "react-icons/fa";

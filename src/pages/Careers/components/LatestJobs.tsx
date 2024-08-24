@@ -1,4 +1,3 @@
-import React from "react";
 import { MdOutlineBusinessCenter } from "react-icons/md";
 import { RiArrowLeftSLine, RiArrowRightSLine } from "react-icons/ri";
 import { SlLocationPin } from "react-icons/sl";

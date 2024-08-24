@@ -1,4 +1,3 @@
-import React from "react";
 import { ImageAndDescSection } from "../../../components";
 import { GoArrowUpRight } from "react-icons/go";
 

@@ -1,4 +1,3 @@
-import React from "react";
 import { AiOutlineFileSearch } from "react-icons/ai";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { CustomButton } from "../../../components";
